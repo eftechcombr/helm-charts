@@ -10,6 +10,6 @@ entries:
     name: wireguard
     type: application
     urls:
-    - https://eftechcombr.github.io/wireguard/wireguard/wireguard-0.1.0.tgz
+    - https://eftechcombr.github.io/helm-charts/wireguard/wireguard-0.1.0.tgz
     version: 0.1.0
 generated: "2024-04-25T00:25:39.585745-03:00"
