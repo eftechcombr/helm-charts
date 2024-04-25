@@ -8,11 +8,13 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add eftechcombr https://eftechcombr.github.io/helm-charts
+    helm repo add eftechcombr https://eftechcombr.github.io/helm-charts
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
 eftechcombr` to see the charts.
+
+## Wireguard
 
 To install the wireguard chart:
 
@@ -20,5 +22,6 @@ To install the wireguard chart:
 
 To uninstall the chart:
 
-    helm delete wireguard
+    helm uninstall wireguard
+
 
