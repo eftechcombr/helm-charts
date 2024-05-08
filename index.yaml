@@ -3,13 +3,13 @@ entries:
   wireguard:
   - apiVersion: v2
     appVersion: v1.0.20210914
-    created: "2024-04-25T00:25:39.586285-03:00"
+    created: "2024-05-08T19:13:01.568421-03:00"
     description: Wireguard VPN Helm chart for Kubernetes
-    digest: bdca583ece7b83bdc98c8d5c106510ebc3c6db19f96475d070369e959eedf75d
+    digest: cf072fd5284044e41234dbc8da04f48061ba70ee431027e7a6ffee6c55222ffd
     icon: https://www.wireguard.com/img/icons/og-logo.png
     name: wireguard
     type: application
     urls:
-    - https://eftechcombr.github.io/helm-charts/wireguard/wireguard-0.1.0.tgz
+    - https://eftechcombr.github.io/helm-charts/packages/wireguard-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-25T00:25:39.585745-03:00"
+generated: "2024-05-08T19:13:01.568036-03:00"
