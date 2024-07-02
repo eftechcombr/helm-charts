@@ -1,3 +1,5 @@
+nameOverride: ""
+fullnameOverride: ""
 
 replicaCount: 1
 
@@ -32,8 +34,6 @@ initcontainer:
 
 
 imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created

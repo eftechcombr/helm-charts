@@ -67,22 +67,22 @@ spec:
           limits:
             memory: "128Mi"
         volumeMounts:
-        - name: {{ .Release.Name }}-secret
+        - name: secret
           mountPath: /etc/wireguard/wg0.key
           subPath: wg0.key
           readOnly: true
-        - name: {{ .Release.Name }}-config
+        - name: config
           mountPath: /etc/wireguard/wg0.conf
           subPath: wg0.conf
           readOnly: true
       volumes:
-      - name: {{ .Release.Name }}-secret
+      - name: secret
         secret:
           secretName: {{ .Release.Name }}-secret
           items:
           - key: "wg0.key"
             path: "wg0.key"
-      - name: wireguard-config
+      - name: config
         configMap:
           name: {{ .Release.Name }}-configmap
           items:
