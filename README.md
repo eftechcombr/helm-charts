@@ -14,7 +14,7 @@ If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
 eftechcombr` to see the charts.
 
-## Wireguard
+### Wireguard
 
 To install the wireguard chart:
 
