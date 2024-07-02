@@ -1,0 +1,19 @@
+apiVersion: v2
+name: wireguard
+description: Wireguard VPN Helm chart for Kubernetes
+icon: https://www.wireguard.com/img/icons/og-logo.png
+type: application
+version: 0.1.1
+keywords:
+  - vpn 
+  - wireguard 
+  - security
+  - network
+  - wireguard-tools
+appVersion: "v1.0.20210914"
+maintainers:
+  - name: Eduardo Fraga 
+    email: eduardo@eftech.com.br 
+sources:
+  - https://github.com/eftechcombr/wireguard
+
